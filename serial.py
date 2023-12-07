@@ -26,7 +26,7 @@ class SerialGenerator:
 
     def __repr__(self):
         "returns a string representing the instance of SerialGenerator"
-        return f"SerialGenerator(start={self.start})"
+        return f"SerialGenerator(start={self.start}, counter={self.counter})"
     
     def __str__(self):
         "returns a human readable string describing the instance of SerialGenerator"
